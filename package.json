@@ -1,0 +1,16 @@
+{
+  "name": "code-labs",
+  "version": "1.0.0",
+  "description": "Um repositório dedicado a reunir os conhecimentos e as práticas adquiridas, promovendo organização e fácil acesso às informações.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
