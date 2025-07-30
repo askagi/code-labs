@@ -8,5 +8,6 @@ const createJestConfig = nextJest({
 });
 const jestConfig = createJestConfig({
   moduleDirectories: ["node_modules", "<rootDir>"],
+  testTimeout: 60000, // ajusta o tempo de espera de saida, ou seja, tempo maximo q o jest pode aguardar antes de rodar o teste (BeforeAll())
 });
 module.exports = jestConfig;
