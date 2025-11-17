@@ -13,8 +13,7 @@ export default function StatusPage() {
   const response = useSWR("/api/v1/status", fetchAPI, {
     refreshInterval: 2000,
   });
-  console.log(response.isLoading);
-  console.log(response.data);
+
   return (
     <ErrorBoundary>
       <Suspense fallback={<h2>Carregando dados...</h2>}>
